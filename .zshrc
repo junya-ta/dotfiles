@@ -1,5 +1,3 @@
-＃TODO: refactor
-
 # -----------------------------
 # 環境変数
 # -----------------------------
@@ -43,6 +41,10 @@ alias back='pushd'
 alias diff='diff -U1'
 # historyに日付を表示
 alias h='fc -lt '%F %T' 1'
+
+# スリープを無効にする(電源接続時のみ)
+alias sleepoff='sudo pmset -c disablesleep 1'
+alias sleepon='sudo pmset -c disablesleep 0'
 
 # -----------------------------
 # General

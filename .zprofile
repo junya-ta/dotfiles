@@ -17,3 +17,5 @@ export PATH="$PATH":"$HOME/.pub-cache/bin"
 export PATH="$PATH:$HOME/fvm/default/bin"
 
 . /opt/homebrew/opt/asdf/libexec/asdf.sh
+
+alias flutter='fvm flutter'
